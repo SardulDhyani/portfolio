@@ -1,0 +1,29 @@
+body{
+  background-color: #100E17;
+}
+
+#navbar-dark{
+  background-color: #191720;
+}
+
+.top-div{
+  margin-top: 100px;
+}
+
+.about-image{
+  width: 300px;
+}
+
+@media (min-width: 992px){
+
+  .top-div{
+    width: 70%;
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .about-image{
+    width: 500px;
+  }
+}
