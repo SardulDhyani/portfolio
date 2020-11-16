@@ -1,5 +1,6 @@
 body{
   background-color: #100E17;
+  overflow-x: hidden;
 }
 
 #navbar-dark{
@@ -23,6 +24,15 @@ body{
   box-shadow: -1rem 0 1rem #000;
 }
 
+.card-deck{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-curved{
+  padding-top: 5px;
+}
 
 /*====================================
             Timeline
@@ -88,5 +98,11 @@ ul.timeline > li:before {
 
   .about-image{
     width: 500px;
+  }
+
+  .card-deck{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
