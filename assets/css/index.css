@@ -30,6 +30,11 @@ body{
   margin-right: auto;
 }
 
+.deck-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer-curved{
   padding-top: 5px;
 }
